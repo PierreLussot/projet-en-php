@@ -46,20 +46,25 @@ if (isset($_POST['envoi'])) {
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
         <title>inscription</title>
     </head>
 
     <body>
-    <h1>espace iscription</h1>
-    <form method="POST" action="" align=" center">
 
-        <input type="text" name="pseudo" placeholder="pseudo" autocomplete="off">
-        <br><br>
-        <input type="password" name="mdp" placeholder="mot de passe" autocomplete="off">
-        <br><br>
-        <input type="submit" name="envoi">
+    <h1>Bienvenue sur mon site</h1>
+    <h2>Inscription</h2>
+    <div class="formContainer">
+        <form method="POST" action="">
 
-    </form>
+            <input type="text" name="pseudo" placeholder="pseudo" autocomplete="off">
+            <br><br>
+            <input type="password" name="mdp" placeholder="mot de passe" autocomplete="off">
+            <br><br>
+            <input type="submit" name="envoi">
+
+        </form>
+    </div>
     </body>
 
     </html>

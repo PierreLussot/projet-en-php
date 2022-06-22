@@ -40,7 +40,7 @@ header('Location: index.php');
 </head>
 
 <body>
-<h1>espace connection</h1>
+<h1>espace connexion</h1>
 <form method="POST" action="" align=" center">
 
     <input type="text" name="pseudo" placeholder="pseudo" autocomplete="off">
